@@ -1,0 +1,140 @@
+img{
+    max-width: 100%;
+    height: auto;
+    width: 75px;
+}
+#introduction>img{
+    border-radius: 50%;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#links-nav{
+    grid-column: 1 / 3
+}
+#introduction{
+    grid-row: 2
+}
+#main{
+    grid-row: 2
+}
+#profile-pic, #summary{
+    background-color: whitesmoke; 
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+    padding: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#summary{
+    width: 200px;
+}
+#core-skills{
+    margin: 20px; 
+    padding-left: 15px; 
+    list-style-position: inside;
+}
+
+#core-skills ul {
+    padding: 5px; 
+    margin: 10px; 
+    background-color: powderblue; 
+}
+
+#career-summary{
+    border-radius: 5px; 
+    border: 1px solid lightgray;
+    width: 600px;
+    margin: 20px; 
+}
+
+.work-experience {
+    margin: 20px; 
+}
+
+.work-experience th, .work-experience td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+/* making the description column in work history wider */
+.work-experience th:nth-child(4),
+.work-experience td:nth-child(4) {
+    width: 200px;
+}
+
+.work-experience tr:nth-child(even) {
+    background-color: rgb(250, 125, 125); 
+}
+
+.work-experience tr:nth-child(odd) {
+    background-color: rgb(250, 200, 200); 
+}
+
+#education-qualifications{
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+    width: 600px;
+    margin: 20px; 
+}
+
+#education-table {
+    margin: 20px;
+}
+
+#education-table th, #education-table td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left;
+}
+
+#education-table tr:nth-child(even) {
+    background-color: rgb(250, 250, 200);
+}
+
+#education-table tr:nth-child(odd) {
+    background-color: rgb(250, 250, 125); 
+}
+
+#qualifications-table {
+    margin: 20px;
+}
+
+#qualifications-table th, #qualifications-table td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left;
+}
+
+#qualifications-table tr:nth-child(even) {
+    background-color: rgb(75, 125, 75);
+}
+
+#qualifications-table tr:nth-child(odd) {
+    background-color: rgb(150, 200, 150); 
+}
+
+#interests-hobbies{
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+    width: 600px;
+    margin: 20px; 
+}
+
+#int-hob-list {
+    margin: 20px; 
+    padding-left: 40px; 
+}
+
+#int-hob-list li {
+    padding: 5px; 
+    background-color: rgb(200, 175, 200);
+    list-style-position: inside;
+}
+
+#int-hob-list img {
+    width: 100px;
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
